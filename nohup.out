@@ -1,0 +1,151 @@
+[2016-02-03 15:30:02 +0000] [10569] [INFO] Starting gunicorn 19.4.5
+[2016-02-03 15:30:02 +0000] [10569] [INFO] Listening at: http://0.0.0.0:80 (10569)
+[2016-02-03 15:30:02 +0000] [10569] [INFO] Using worker: sync
+[2016-02-03 15:30:02 +0000] [10574] [INFO] Booting worker with pid: 10574
+[2016-02-03 15:30:02 +0000] [10574] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+[2016-02-03 15:30:02 +0000] [10574] [INFO] Worker exiting (pid: 10574)
+[2016-02-03 15:30:02 +0000] [10575] [INFO] Booting worker with pid: 10575
+[2016-02-03 15:30:02 +0000] [10575] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+[2016-02-03 15:30:02 +0000] [10575] [INFO] Worker exiting (pid: 10575)
+[2016-02-03 15:30:02 +0000] [10569] [INFO] Shutting down: Master
+[2016-02-03 15:30:02 +0000] [10569] [INFO] Reason: Worker failed to boot.
+[2016-04-25 15:07:14 +0000] [4244] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 15:07:14 +0000] [4244] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-25 15:07:14 +0000] [4244] [ERROR] Retrying in 1 second.
+[2016-04-25 15:07:15 +0000] [4244] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-25 15:07:15 +0000] [4244] [ERROR] Retrying in 1 second.
+[2016-04-25 15:07:16 +0000] [4244] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-25 15:07:16 +0000] [4244] [ERROR] Retrying in 1 second.
+[2016-04-25 15:07:17 +0000] [4244] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-25 15:07:17 +0000] [4244] [ERROR] Retrying in 1 second.
+[2016-04-25 15:07:18 +0000] [4244] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-25 15:07:18 +0000] [4244] [ERROR] Retrying in 1 second.
+[2016-04-25 15:07:19 +0000] [4244] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2016-04-30 02:39:23 +0000] [26030] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:39:23 +0000] [26030] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:23 +0000] [26030] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:24 +0000] [26030] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:24 +0000] [26030] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:25 +0000] [26030] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:25 +0000] [26030] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:26 +0000] [26030] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:26 +0000] [26030] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:27 +0000] [26030] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:27 +0000] [26030] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:28 +0000] [26030] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2016-04-30 02:39:44 +0000] [26038] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:39:44 +0000] [26038] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:44 +0000] [26038] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:45 +0000] [26038] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:45 +0000] [26038] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:46 +0000] [26038] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:46 +0000] [26038] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:47 +0000] [26038] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:47 +0000] [26038] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:48 +0000] [26038] [ERROR] Connection in use: ('0.0.0.0', 80)
+[2016-04-30 02:39:48 +0000] [26038] [ERROR] Retrying in 1 second.
+[2016-04-30 02:39:49 +0000] [26038] [ERROR] Can't connect to ('0.0.0.0', 80)
+[2016-08-23 15:27:34 +0000] [1201] [INFO] Starting gunicorn 19.4.5
+[2016-08-23 15:27:34 +0000] [1201] [INFO] Listening at: http://0.0.0.0:80 (1201)
+[2016-08-23 15:27:34 +0000] [1201] [INFO] Using worker: sync
+[2016-08-23 15:27:34 +0000] [1206] [INFO] Booting worker with pid: 1206
+[2016-08-23 15:27:34 +0000] [1206] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named server
+[2016-08-23 15:27:34 +0000] [1206] [INFO] Worker exiting (pid: 1206)
+[2016-08-23 15:27:34 +0000] [1201] [INFO] Shutting down: Master
+[2016-08-23 15:27:34 +0000] [1201] [INFO] Reason: Worker failed to boot.

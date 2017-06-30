@@ -1,0 +1,3035 @@
+Traceback (most recent call last):
+  File "server.py", line 63, in <module>
+    app.run(host="0.0.0.0", port=80, debug=True)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 675, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "server.py", line 28, in check_email
+    db.posts.insert_one(json)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/collection.py", line 622, in insert_one
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py", line 712, in _get_socket
+    server = self._get_topology().select_server(selector)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 141, in select_server
+    address))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 117, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+Mandatory Robotics Room Cleanup + Updates
+Hi everyone,
+
+The Robotics Room (P5) is a complete mess at the moment. Today, (Tuesday)
+we met for room cleanup, but we still have a ways to go. There will be a
+second room cleanup on this *Thursday, January 28th. *Per Ms. Chou's
+request, *all VEX members are required to attend. *
+
+Those who are on a Project Team should also come to help with the
+organizing, and to cleanup their group's general area. This means putting
+tools & parts that aren't needed away into their correct boxes and cleaning
+up the floors & tables.
+
+We will also be starting a new Project Period soon. I know with Finals and
+the Tournament that project groups haven't been meeting as often, but with
+the new Project Period (Term 3), we want project teams to be meeting more
+regularly. *We would also like the project leaders to be in contact with
+James (our Projects Director) to give updates on the project's status,
+meeting schedule, and who is not showing up to meetings.*
+
+Ian SooHoo
+*IT/Media Director*
+*Gael Force Robotics*
+
+ * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 232-917-011
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "server.py", line 28, in check_email
+    db.posts.insert_one(json)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/collection.py", line 622, in insert_one
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py", line 712, in _get_socket
+    server = self._get_topology().select_server(selector)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 141, in select_server
+    address))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 117, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "server.py", line 28, in check_email
+    db.posts.insert_one(json)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/collection.py", line 622, in insert_one
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/mongo_client.py", line 712, in _get_socket
+    server = self._get_topology().select_server(selector)
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 141, in select_server
+    address))
+  File "/usr/local/lib/python2.7/dist-packages/pymongo/topology.py", line 117, in select_servers
+    self._error_message(selector))
+ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET / HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/slider/flexslider.css HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/css/style.css HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/slider/modernizr.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/jquery.bootstrap-autohidingnavbar.min.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/jquery.singlePageNav.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/templatemo_custom.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/slider/jquery.flexslider.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/smooth.scrolling.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/jquery.flip.min.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/js/smooth.min.js HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/images/logo.png HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:21] "GET /static/images/slide2.jpg HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:22] "GET /static/images/slide3.JPG HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:22] "GET /static/images/slide4.jpg HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:22] "GET /static/images/slide5.jpg HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:23] "GET /static/images/slide6.jpg HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:23] "GET /static/images/image/never-gonna-give-you-up.mp3 HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 194, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 185, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 166, in write
+    self.wfile.write(data)
+IOError: [Errno 104] Connection reset by peer
+206.110.235.21 - - [02/Feb/2016 15:19:33] "GET /static/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:33] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:33] "GET /static/images/left_arrow.png HTTP/1.1" 200 -
+206.110.235.21 - - [02/Feb/2016 15:19:33] "GET /static/images/slide7.jpg HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 194, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 185, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 166, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+206.110.235.21 - - [02/Feb/2016 15:19:34] "GET /static/images/slide1.jpg HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 194, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 185, in execute
+    write(data)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 166, in write
+    self.wfile.write(data)
+IOError: [Errno 104] Connection reset by peer
+206.110.235.21 - - [02/Feb/2016 15:19:34] "GET /static/fonts/fontawesome-webfont.ttf?v=4.0.3 HTTP/1.1" 200 -
+[2016-02-03 15:31:38 +0000] [10597] [INFO] Starting gunicorn 19.4.5
+[2016-02-03 15:31:38 +0000] [10597] [INFO] Listening at: http://0.0.0.0:80 (10597)
+[2016-02-03 15:31:38 +0000] [10597] [INFO] Using worker: sync
+[2016-02-03 15:31:38 +0000] [10602] [INFO] Booting worker with pid: 10602
+[2016-02-03 15:31:38 +0000] [10603] [INFO] Booting worker with pid: 10603
+[2016-02-03 15:31:38 +0000] [10606] [INFO] Booting worker with pid: 10606
+[2016-02-03 15:31:38 +0000] [10607] [INFO] Booting worker with pid: 10607
+[2016-02-03 15:31:48 +0000] [10606] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 15:42:20 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10602)
+[2016-02-03 15:42:20 +0000] [10602] [INFO] Worker exiting (pid: 10602)
+[2016-02-03 15:42:20 +0000] [10653] [INFO] Booting worker with pid: 10653
+[2016-02-03 15:49:49 +0000] [10606] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 15:52:55 +0000] [10607] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 15:53:20 +0000] [10606] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 15:53:51 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10603)
+[2016-02-03 15:53:51 +0000] [10603] [INFO] Worker exiting (pid: 10603)
+[2016-02-03 15:53:51 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10653)
+[2016-02-03 15:53:51 +0000] [10653] [INFO] Worker exiting (pid: 10653)
+[2016-02-03 15:53:51 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10606)
+[2016-02-03 15:53:51 +0000] [10606] [INFO] Worker exiting (pid: 10606)
+[2016-02-03 15:53:51 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10607)
+[2016-02-03 15:53:51 +0000] [10607] [INFO] Worker exiting (pid: 10607)
+[2016-02-03 15:53:51 +0000] [10839] [INFO] Booting worker with pid: 10839
+[2016-02-03 15:53:51 +0000] [10838] [INFO] Booting worker with pid: 10838
+[2016-02-03 15:53:51 +0000] [10840] [INFO] Booting worker with pid: 10840
+[2016-02-03 15:53:52 +0000] [10841] [INFO] Booting worker with pid: 10841
+[2016-02-03 15:59:42 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10838)
+[2016-02-03 15:59:42 +0000] [10838] [INFO] Worker exiting (pid: 10838)
+[2016-02-03 15:59:42 +0000] [10873] [INFO] Booting worker with pid: 10873
+[2016-02-03 16:31:56 +0000] [10873] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 16:32:27 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10841)
+[2016-02-03 16:32:27 +0000] [10841] [INFO] Worker exiting (pid: 10841)
+[2016-02-03 16:32:27 +0000] [11420] [INFO] Booting worker with pid: 11420
+[2016-02-03 17:08:03 +0000] [10840] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 17:09:21 +0000] [10840] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-03 17:10:15 +0000] [10839] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2016-02-04 04:51:53 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10873)
+[2016-02-04 04:51:53 +0000] [10873] [INFO] Worker exiting (pid: 10873)
+[2016-02-04 04:51:53 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10839)
+[2016-02-04 04:51:53 +0000] [10839] [INFO] Worker exiting (pid: 10839)
+[2016-02-04 04:51:53 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:10840)
+[2016-02-04 04:51:53 +0000] [10840] [INFO] Worker exiting (pid: 10840)
+[2016-02-04 04:51:53 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:11420)
+[2016-02-04 04:51:53 +0000] [11420] [INFO] Worker exiting (pid: 11420)
+[2016-02-04 04:51:53 +0000] [15268] [INFO] Booting worker with pid: 15268
+[2016-02-04 04:51:53 +0000] [15269] [INFO] Booting worker with pid: 15269
+[2016-02-04 04:51:53 +0000] [15270] [INFO] Booting worker with pid: 15270
+[2016-02-04 04:51:53 +0000] [15271] [INFO] Booting worker with pid: 15271
+[2016-02-05 03:10:43 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:15268)
+[2016-02-05 03:10:43 +0000] [15268] [INFO] Worker exiting (pid: 15268)
+[2016-02-05 03:10:43 +0000] [24368] [INFO] Booting worker with pid: 24368
+[2016-02-05 03:10:47 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:15270)
+[2016-02-05 03:10:47 +0000] [15270] [INFO] Worker exiting (pid: 15270)
+[2016-02-05 03:10:47 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:15271)
+[2016-02-05 03:10:47 +0000] [15271] [INFO] Worker exiting (pid: 15271)
+[2016-02-05 03:10:48 +0000] [24374] [INFO] Booting worker with pid: 24374
+[2016-02-05 03:10:48 +0000] [24375] [INFO] Booting worker with pid: 24375
+[2016-02-05 03:10:52 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:15269)
+[2016-02-05 03:10:52 +0000] [15269] [INFO] Worker exiting (pid: 15269)
+[2016-02-05 03:10:52 +0000] [24386] [INFO] Booting worker with pid: 24386
+[2016-02-05 03:12:17 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:24368)
+[2016-02-05 03:12:17 +0000] [24368] [INFO] Worker exiting (pid: 24368)
+[2016-02-05 03:12:17 +0000] [24401] [INFO] Booting worker with pid: 24401
+[2016-02-05 03:14:53 +0000] [10597] [CRITICAL] WORKER TIMEOUT (pid:24386)
+[2016-02-05 03:14:53 +0000] [24386] [INFO] Worker exiting (pid: 24386)
+[2016-02-05 03:14:53 +0000] [24458] [INFO] Booting worker with pid: 24458
+Traceback (most recent call last):
+  File "wsgi.py", line 1, in <module>
+    from server import app
+  File "/root/robotics-site/robotics-site/server.py", line 29, in <module>
+    @app.route('contract')
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1013, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 62, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 976, in add_url_rule
+    rule = self.url_rule_class(rule, methods=methods, **options)
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/routing.py", line 599, in __init__
+    raise ValueError('urls must start with a leading slash')
+ValueError: urls must start with a leading slash
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-05-20 15:59:24 +0000] [28698] [INFO] Starting gunicorn 19.4.5
+[2017-05-20 15:59:24 +0000] [28698] [INFO] Listening at: http://0.0.0.0:80 (28698)
+[2017-05-20 15:59:24 +0000] [28698] [INFO] Using worker: sync
+[2017-05-20 15:59:24 +0000] [28703] [INFO] Booting worker with pid: 28703
+[2017-05-20 15:59:25 +0000] [28704] [INFO] Booting worker with pid: 28704
+[2017-05-20 15:59:25 +0000] [28706] [INFO] Booting worker with pid: 28706
+[2017-05-20 15:59:25 +0000] [28708] [INFO] Booting worker with pid: 28708
+[2017-05-20 16:03:08 +0000] [28703] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:16 +0000] [28706] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:19 +0000] [28708] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:19 +0000] [28703] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:19 +0000] [28708] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:19 +0000] [28703] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:20 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 16:12:48 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28706)
+[2017-05-20 16:12:48 +0000] [28706] [INFO] Worker exiting (pid: 28706)
+[2017-05-20 16:12:49 +0000] [29038] [INFO] Booting worker with pid: 29038
+[2017-05-20 19:48:22 +0000] [28708] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 19:48:22 +0000] [28703] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 19:52:15 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 23:40:44 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28703)
+[2017-05-20 23:40:44 +0000] [28703] [INFO] Worker exiting (pid: 28703)
+[2017-05-20 23:40:44 +0000] [3975] [INFO] Booting worker with pid: 3975
+[2017-05-20 23:40:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28708)
+[2017-05-20 23:40:57 +0000] [28708] [INFO] Worker exiting (pid: 28708)
+[2017-05-20 23:40:57 +0000] [3990] [INFO] Booting worker with pid: 3990
+[2017-05-20 23:41:09 +0000] [29038] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-20 23:41:09 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:04:44 +0000] [3975] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:04:45 +0000] [29038] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:04:45 +0000] [3975] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:05:45 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:05:46 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:05:46 +0000] [3975] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:14:50 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:14:50 +0000] [29038] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 02:14:50 +0000] [3975] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 22:51:00 +0000] [3990] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 22:51:15 +0000] [3975] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 22:51:15 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-21 22:51:15 +0000] [3990] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 01:10:42 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29038)
+[2017-05-22 01:10:42 +0000] [29038] [INFO] Worker exiting (pid: 29038)
+[2017-05-22 01:10:42 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3990)
+[2017-05-22 01:10:42 +0000] [3990] [INFO] Worker exiting (pid: 3990)
+[2017-05-22 01:10:42 +0000] [24304] [INFO] Booting worker with pid: 24304
+[2017-05-22 01:10:42 +0000] [24305] [INFO] Booting worker with pid: 24305
+[2017-05-22 01:11:11 +0000] [28704] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 01:26:33 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28704)
+[2017-05-22 01:26:33 +0000] [28704] [INFO] Worker exiting (pid: 28704)
+[2017-05-22 01:26:33 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24305)
+[2017-05-22 01:26:33 +0000] [24305] [INFO] Worker exiting (pid: 24305)
+[2017-05-22 01:26:33 +0000] [24509] [INFO] Booting worker with pid: 24509
+[2017-05-22 01:26:33 +0000] [24510] [INFO] Booting worker with pid: 24510
+[2017-05-22 02:04:32 +0000] [24304] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 02:04:39 +0000] [24510] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 13:11:20 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24304)
+[2017-05-22 13:11:20 +0000] [24304] [INFO] Worker exiting (pid: 24304)
+[2017-05-22 13:11:20 +0000] [31556] [INFO] Booting worker with pid: 31556
+[2017-05-22 13:24:00 +0000] [31556] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 16:04:11 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24509)
+[2017-05-22 16:04:11 +0000] [24509] [INFO] Worker exiting (pid: 24509)
+[2017-05-22 16:04:11 +0000] [603] [INFO] Booting worker with pid: 603
+[2017-05-22 22:03:43 +0000] [603] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 22:03:43 +0000] [31556] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 22:04:13 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:603)
+[2017-05-22 22:04:13 +0000] [603] [INFO] Worker exiting (pid: 603)
+[2017-05-22 22:04:14 +0000] [3525] [INFO] Booting worker with pid: 3525
+[2017-05-22 23:28:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3525)
+[2017-05-22 23:28:40 +0000] [3525] [INFO] Worker exiting (pid: 3525)
+[2017-05-22 23:28:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24510)
+[2017-05-22 23:28:40 +0000] [24510] [INFO] Worker exiting (pid: 24510)
+[2017-05-22 23:28:40 +0000] [4223] [INFO] Booting worker with pid: 4223
+[2017-05-22 23:28:40 +0000] [4224] [INFO] Booting worker with pid: 4224
+[2017-05-22 23:28:41 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31556)
+[2017-05-22 23:28:41 +0000] [31556] [INFO] Worker exiting (pid: 31556)
+[2017-05-22 23:28:41 +0000] [4235] [INFO] Booting worker with pid: 4235
+[2017-05-22 23:28:48 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3975)
+[2017-05-22 23:28:48 +0000] [3975] [INFO] Worker exiting (pid: 3975)
+[2017-05-22 23:28:49 +0000] [4241] [INFO] Booting worker with pid: 4241
+[2017-05-22 23:29:13 +0000] [4241] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-22 23:33:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4241)
+[2017-05-22 23:33:43 +0000] [4241] [INFO] Worker exiting (pid: 4241)
+[2017-05-22 23:33:43 +0000] [4289] [INFO] Booting worker with pid: 4289
+[2017-05-22 23:33:50 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4224)
+[2017-05-22 23:33:50 +0000] [4224] [INFO] Worker exiting (pid: 4224)
+[2017-05-22 23:33:51 +0000] [4297] [INFO] Booting worker with pid: 4297
+[2017-05-22 23:34:02 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4235)
+[2017-05-22 23:34:02 +0000] [4235] [INFO] Worker exiting (pid: 4235)
+[2017-05-22 23:34:02 +0000] [4304] [INFO] Booting worker with pid: 4304
+[2017-05-22 23:34:14 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4289)
+[2017-05-22 23:34:14 +0000] [4289] [INFO] Worker exiting (pid: 4289)
+[2017-05-22 23:34:14 +0000] [4312] [INFO] Booting worker with pid: 4312
+[2017-05-22 23:48:22 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4297)
+[2017-05-22 23:48:22 +0000] [4297] [INFO] Worker exiting (pid: 4297)
+[2017-05-22 23:48:22 +0000] [4423] [INFO] Booting worker with pid: 4423
+[2017-05-23 14:08:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4223)
+[2017-05-23 14:08:57 +0000] [4223] [INFO] Worker exiting (pid: 4223)
+[2017-05-23 14:08:58 +0000] [32115] [INFO] Booting worker with pid: 32115
+[2017-05-23 22:05:09 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-23 22:05:09 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-23 22:05:09 +0000] [4423] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-23 22:05:09 +0000] [32115] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-23 22:05:09 +0000] [4304] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-23 22:05:09 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 18:31:58 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 18:32:06 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 18:32:06 +0000] [32115] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 21:26:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4304)
+[2017-05-24 21:26:43 +0000] [4304] [INFO] Worker exiting (pid: 4304)
+[2017-05-24 21:26:43 +0000] [17797] [INFO] Booting worker with pid: 17797
+[2017-05-24 21:59:54 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 22:00:02 +0000] [32115] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-24 22:00:02 +0000] [4312] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-25 00:12:00 +0000] [32115] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-25 00:12:05 +0000] [17797] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-25 13:14:21 +0000] [17797] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-25 13:14:55 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4423)
+[2017-05-25 13:14:55 +0000] [4423] [INFO] Worker exiting (pid: 4423)
+[2017-05-25 13:14:55 +0000] [21054] [INFO] Booting worker with pid: 21054
+[2017-05-26 16:30:15 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:17797)
+[2017-05-26 16:30:15 +0000] [17797] [INFO] Worker exiting (pid: 17797)
+[2017-05-26 16:30:15 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32115)
+[2017-05-26 16:30:15 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21054)
+[2017-05-26 16:30:15 +0000] [21054] [INFO] Worker exiting (pid: 21054)
+[2017-05-26 16:30:15 +0000] [32115] [INFO] Worker exiting (pid: 32115)
+[2017-05-26 16:30:16 +0000] [32574] [INFO] Booting worker with pid: 32574
+[2017-05-26 16:30:16 +0000] [32575] [INFO] Booting worker with pid: 32575
+[2017-05-26 16:30:16 +0000] [32576] [INFO] Booting worker with pid: 32576
+[2017-05-26 19:47:05 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4312)
+[2017-05-26 19:47:05 +0000] [4312] [INFO] Worker exiting (pid: 4312)
+[2017-05-26 19:47:05 +0000] [1068] [INFO] Booting worker with pid: 1068
+[2017-05-27 11:20:12 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32576)
+[2017-05-27 11:20:12 +0000] [32576] [INFO] Worker exiting (pid: 32576)
+[2017-05-27 11:20:13 +0000] [9037] [INFO] Booting worker with pid: 9037
+[2017-05-27 14:04:19 +0000] [9037] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 14:05:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:1068)
+[2017-05-27 14:05:40 +0000] [1068] [INFO] Worker exiting (pid: 1068)
+[2017-05-27 14:05:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:9037)
+[2017-05-27 14:05:40 +0000] [9037] [INFO] Worker exiting (pid: 9037)
+[2017-05-27 14:05:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32574)
+[2017-05-27 14:05:40 +0000] [32574] [INFO] Worker exiting (pid: 32574)
+[2017-05-27 14:05:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32575)
+[2017-05-27 14:05:40 +0000] [32575] [INFO] Worker exiting (pid: 32575)
+[2017-05-27 14:05:40 +0000] [13771] [INFO] Booting worker with pid: 13771
+[2017-05-27 14:05:40 +0000] [13772] [INFO] Booting worker with pid: 13772
+[2017-05-27 14:05:40 +0000] [13773] [INFO] Booting worker with pid: 13773
+[2017-05-27 14:05:40 +0000] [13774] [INFO] Booting worker with pid: 13774
+[2017-05-27 14:06:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13771)
+[2017-05-27 14:06:23 +0000] [13771] [INFO] Worker exiting (pid: 13771)
+[2017-05-27 14:06:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13772)
+[2017-05-27 14:06:23 +0000] [13772] [INFO] Worker exiting (pid: 13772)
+[2017-05-27 14:06:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13773)
+[2017-05-27 14:06:23 +0000] [13773] [INFO] Worker exiting (pid: 13773)
+[2017-05-27 14:06:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13774)
+[2017-05-27 14:06:23 +0000] [13774] [INFO] Worker exiting (pid: 13774)
+[2017-05-27 14:06:24 +0000] [13803] [INFO] Booting worker with pid: 13803
+[2017-05-27 14:06:24 +0000] [13804] [INFO] Booting worker with pid: 13804
+[2017-05-27 14:06:24 +0000] [13805] [INFO] Booting worker with pid: 13805
+[2017-05-27 14:06:24 +0000] [13806] [INFO] Booting worker with pid: 13806
+[2017-05-27 17:11:05 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13805)
+[2017-05-27 17:11:05 +0000] [13805] [INFO] Worker exiting (pid: 13805)
+[2017-05-27 17:11:05 +0000] [16404] [INFO] Booting worker with pid: 16404
+[2017-05-27 18:18:21 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13803)
+[2017-05-27 18:18:21 +0000] [13803] [INFO] Worker exiting (pid: 13803)
+[2017-05-27 18:18:21 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:16404)
+[2017-05-27 18:18:21 +0000] [16404] [INFO] Worker exiting (pid: 16404)
+[2017-05-27 18:18:21 +0000] [17398] [INFO] Booting worker with pid: 17398
+[2017-05-27 18:18:21 +0000] [17399] [INFO] Booting worker with pid: 17399
+[2017-05-27 20:53:53 +0000] [17398] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 20:54:07 +0000] [17399] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 20:54:07 +0000] [17398] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 20:54:07 +0000] [13804] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 20:54:07 +0000] [13806] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 22:31:28 +0000] [13806] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 22:31:28 +0000] [17398] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 22:32:16 +0000] [17399] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-27 22:46:30 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:17398)
+[2017-05-27 22:46:30 +0000] [17398] [INFO] Worker exiting (pid: 17398)
+[2017-05-27 22:46:31 +0000] [21478] [INFO] Booting worker with pid: 21478
+[2017-05-27 23:07:49 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:17399)
+[2017-05-27 23:07:49 +0000] [17399] [INFO] Worker exiting (pid: 17399)
+[2017-05-27 23:07:50 +0000] [21794] [INFO] Booting worker with pid: 21794
+[2017-05-28 13:23:50 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21794)
+[2017-05-28 13:23:50 +0000] [21794] [INFO] Worker exiting (pid: 21794)
+[2017-05-28 13:23:50 +0000] [30093] [INFO] Booting worker with pid: 30093
+[2017-05-28 18:22:31 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:30093)
+[2017-05-28 18:22:31 +0000] [30093] [INFO] Worker exiting (pid: 30093)
+[2017-05-28 18:22:32 +0000] [32508] [INFO] Booting worker with pid: 32508
+[2017-05-28 21:13:41 +0000] [21478] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-29 01:48:37 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13806)
+[2017-05-29 01:48:37 +0000] [13806] [INFO] Worker exiting (pid: 13806)
+[2017-05-29 01:48:38 +0000] [3972] [INFO] Booting worker with pid: 3972
+[2017-05-29 03:47:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13804)
+[2017-05-29 03:47:53 +0000] [13804] [INFO] Worker exiting (pid: 13804)
+[2017-05-29 03:47:53 +0000] [4686] [INFO] Booting worker with pid: 4686
+[2017-05-29 15:09:16 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4686)
+[2017-05-29 15:09:16 +0000] [4686] [INFO] Worker exiting (pid: 4686)
+[2017-05-29 15:09:16 +0000] [11403] [INFO] Booting worker with pid: 11403
+[2017-05-29 15:19:55 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3972)
+[2017-05-29 15:19:55 +0000] [3972] [INFO] Worker exiting (pid: 3972)
+[2017-05-29 15:19:56 +0000] [11638] [INFO] Booting worker with pid: 11638
+[2017-05-29 17:01:48 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32508)
+[2017-05-29 17:01:48 +0000] [32508] [INFO] Worker exiting (pid: 32508)
+[2017-05-29 17:01:48 +0000] [13886] [INFO] Booting worker with pid: 13886
+[2017-05-29 18:55:22 +0000] [21478] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-29 19:48:26 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:11638)
+[2017-05-29 19:48:26 +0000] [11638] [INFO] Worker exiting (pid: 11638)
+[2017-05-29 19:48:26 +0000] [17615] [INFO] Booting worker with pid: 17615
+[2017-05-30 06:45:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:11403)
+[2017-05-30 06:45:53 +0000] [11403] [INFO] Worker exiting (pid: 11403)
+[2017-05-30 06:45:53 +0000] [27686] [INFO] Booting worker with pid: 27686
+[2017-05-30 11:21:21 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:17615)
+[2017-05-30 11:21:21 +0000] [17615] [INFO] Worker exiting (pid: 17615)
+[2017-05-30 11:21:22 +0000] [29790] [INFO] Booting worker with pid: 29790
+[2017-05-30 14:42:07 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21478)
+[2017-05-30 14:42:07 +0000] [21478] [INFO] Worker exiting (pid: 21478)
+[2017-05-30 14:42:08 +0000] [30996] [INFO] Booting worker with pid: 30996
+[2017-05-30 17:11:07 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:30996)
+[2017-05-30 17:11:07 +0000] [30996] [INFO] Worker exiting (pid: 30996)
+[2017-05-30 17:11:07 +0000] [31924] [INFO] Booting worker with pid: 31924
+[2017-05-30 17:22:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:27686)
+[2017-05-30 17:22:43 +0000] [27686] [INFO] Worker exiting (pid: 27686)
+[2017-05-30 17:22:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13886)
+[2017-05-30 17:22:43 +0000] [13886] [INFO] Worker exiting (pid: 13886)
+[2017-05-30 17:22:43 +0000] [31990] [INFO] Booting worker with pid: 31990
+[2017-05-30 17:22:43 +0000] [31991] [INFO] Booting worker with pid: 31991
+[2017-05-30 17:22:46 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29790)
+[2017-05-30 17:22:46 +0000] [29790] [INFO] Worker exiting (pid: 29790)
+[2017-05-30 17:22:47 +0000] [32002] [INFO] Booting worker with pid: 32002
+[2017-05-31 00:29:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32002)
+[2017-05-31 00:29:53 +0000] [32002] [INFO] Worker exiting (pid: 32002)
+[2017-05-31 00:29:53 +0000] [1849] [INFO] Booting worker with pid: 1849
+[2017-05-31 00:31:15 +0000] [1849] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-31 02:41:11 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:1849)
+[2017-05-31 02:41:11 +0000] [1849] [INFO] Worker exiting (pid: 1849)
+[2017-05-31 02:41:11 +0000] [2215] [INFO] Booting worker with pid: 2215
+[2017-05-31 02:55:10 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31924)
+[2017-05-31 02:55:10 +0000] [31924] [INFO] Worker exiting (pid: 31924)
+[2017-05-31 02:55:11 +0000] [2251] [INFO] Booting worker with pid: 2251
+[2017-05-31 02:56:01 +0000] [31990] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-31 02:56:47 +0000] [2215] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-05-31 09:00:45 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31990)
+[2017-05-31 09:00:45 +0000] [31990] [INFO] Worker exiting (pid: 31990)
+[2017-05-31 09:00:45 +0000] [3238] [INFO] Booting worker with pid: 3238
+[2017-05-31 13:42:02 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31991)
+[2017-05-31 13:42:02 +0000] [31991] [INFO] Worker exiting (pid: 31991)
+[2017-05-31 13:42:03 +0000] [4008] [INFO] Booting worker with pid: 4008
+[2017-05-31 13:42:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3238)
+[2017-05-31 13:42:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:2215)
+[2017-05-31 13:42:06 +0000] [2215] [INFO] Worker exiting (pid: 2215)
+[2017-05-31 13:42:06 +0000] [3238] [INFO] Worker exiting (pid: 3238)
+[2017-05-31 13:42:06 +0000] [4014] [INFO] Booting worker with pid: 4014
+[2017-05-31 13:42:06 +0000] [4015] [INFO] Booting worker with pid: 4015
+[2017-06-01 13:14:56 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4015)
+[2017-06-01 13:14:56 +0000] [4015] [INFO] Worker exiting (pid: 4015)
+[2017-06-01 13:14:57 +0000] [8433] [INFO] Booting worker with pid: 8433
+[2017-06-01 13:14:58 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4014)
+[2017-06-01 13:14:58 +0000] [4014] [INFO] Worker exiting (pid: 4014)
+[2017-06-01 13:14:58 +0000] [8441] [INFO] Booting worker with pid: 8441
+[2017-06-01 18:14:02 +0000] [8441] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-01 18:14:11 +0000] [8441] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-01 20:47:33 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4008)
+[2017-06-01 20:47:33 +0000] [4008] [INFO] Worker exiting (pid: 4008)
+[2017-06-01 20:47:34 +0000] [10862] [INFO] Booting worker with pid: 10862
+[2017-06-02 00:19:40 +0000] [8441] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 00:19:44 +0000] [8441] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 00:22:31 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:2251)
+[2017-06-02 00:22:31 +0000] [2251] [INFO] Worker exiting (pid: 2251)
+[2017-06-02 00:22:31 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8433)
+[2017-06-02 00:22:31 +0000] [8433] [INFO] Worker exiting (pid: 8433)
+[2017-06-02 00:22:31 +0000] [12311] [INFO] Booting worker with pid: 12311
+[2017-06-02 00:22:31 +0000] [12312] [INFO] Booting worker with pid: 12312
+[2017-06-02 00:22:37 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8441)
+[2017-06-02 00:22:37 +0000] [8441] [INFO] Worker exiting (pid: 8441)
+[2017-06-02 00:22:38 +0000] [12324] [INFO] Booting worker with pid: 12324
+[2017-06-02 00:23:04 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:10862)
+[2017-06-02 00:23:04 +0000] [10862] [INFO] Worker exiting (pid: 10862)
+[2017-06-02 00:23:04 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12311)
+[2017-06-02 00:23:04 +0000] [12311] [INFO] Worker exiting (pid: 12311)
+[2017-06-02 00:23:04 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12312)
+[2017-06-02 00:23:04 +0000] [12312] [INFO] Worker exiting (pid: 12312)
+[2017-06-02 00:23:04 +0000] [12332] [INFO] Booting worker with pid: 12332
+[2017-06-02 00:23:04 +0000] [12333] [INFO] Booting worker with pid: 12333
+[2017-06-02 00:23:04 +0000] [12334] [INFO] Booting worker with pid: 12334
+[2017-06-02 00:25:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12332)
+[2017-06-02 00:25:06 +0000] [12332] [INFO] Worker exiting (pid: 12332)
+[2017-06-02 00:25:06 +0000] [12364] [INFO] Booting worker with pid: 12364
+[2017-06-02 00:25:10 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12333)
+[2017-06-02 00:25:10 +0000] [12333] [INFO] Worker exiting (pid: 12333)
+[2017-06-02 00:25:10 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12334)
+[2017-06-02 00:25:10 +0000] [12334] [INFO] Worker exiting (pid: 12334)
+[2017-06-02 00:25:11 +0000] [12370] [INFO] Booting worker with pid: 12370
+[2017-06-02 00:25:11 +0000] [12371] [INFO] Booting worker with pid: 12371
+[2017-06-02 00:27:24 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12364)
+[2017-06-02 00:27:24 +0000] [12364] [INFO] Worker exiting (pid: 12364)
+[2017-06-02 00:27:24 +0000] [12393] [INFO] Booting worker with pid: 12393
+[2017-06-02 00:27:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12370)
+[2017-06-02 00:27:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12371)
+[2017-06-02 00:27:25 +0000] [12371] [INFO] Worker exiting (pid: 12371)
+[2017-06-02 00:27:25 +0000] [12370] [INFO] Worker exiting (pid: 12370)
+[2017-06-02 00:27:25 +0000] [12399] [INFO] Booting worker with pid: 12399
+[2017-06-02 00:27:25 +0000] [12400] [INFO] Booting worker with pid: 12400
+[2017-06-02 00:28:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12399)
+[2017-06-02 00:28:51 +0000] [12399] [INFO] Worker exiting (pid: 12399)
+[2017-06-02 00:28:51 +0000] [12421] [INFO] Booting worker with pid: 12421
+[2017-06-02 00:28:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12324)
+[2017-06-02 00:28:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12400)
+[2017-06-02 00:28:52 +0000] [12324] [INFO] Worker exiting (pid: 12324)
+[2017-06-02 00:28:52 +0000] [12400] [INFO] Worker exiting (pid: 12400)
+[2017-06-02 00:28:53 +0000] [12427] [INFO] Booting worker with pid: 12427
+[2017-06-02 00:28:53 +0000] [12428] [INFO] Booting worker with pid: 12428
+[2017-06-02 07:34:58 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12393)
+[2017-06-02 07:34:58 +0000] [12393] [INFO] Worker exiting (pid: 12393)
+[2017-06-02 07:34:59 +0000] [15640] [INFO] Booting worker with pid: 15640
+[2017-06-02 15:36:57 +0000] [12427] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 15:36:57 +0000] [15640] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 15:36:57 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 19:54:56 +0000] [12427] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 19:55:18 +0000] [12427] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 19:55:18 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-02 19:55:27 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12421)
+[2017-06-02 19:55:27 +0000] [12421] [INFO] Worker exiting (pid: 12421)
+[2017-06-02 19:55:27 +0000] [22434] [INFO] Booting worker with pid: 22434
+[2017-06-03 13:58:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:22434)
+[2017-06-03 13:58:51 +0000] [22434] [INFO] Worker exiting (pid: 22434)
+[2017-06-03 13:58:51 +0000] [2140] [INFO] Booting worker with pid: 2140
+[2017-06-03 14:48:43 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-03 14:48:53 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-03 16:30:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:15640)
+[2017-06-03 16:30:52 +0000] [15640] [INFO] Worker exiting (pid: 15640)
+[2017-06-03 16:30:52 +0000] [3339] [INFO] Booting worker with pid: 3339
+[2017-06-04 14:10:53 +0000] [12427] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 14:10:54 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 14:10:54 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 14:10:56 +0000] [2140] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 14:10:56 +0000] [3339] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 14:10:56 +0000] [12427] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 22:24:23 +0000] [2140] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 22:27:03 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3339)
+[2017-06-04 22:27:03 +0000] [3339] [INFO] Worker exiting (pid: 3339)
+[2017-06-04 22:27:03 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:2140)
+[2017-06-04 22:27:03 +0000] [2140] [INFO] Worker exiting (pid: 2140)
+[2017-06-04 22:27:03 +0000] [20473] [INFO] Booting worker with pid: 20473
+[2017-06-04 22:27:03 +0000] [20474] [INFO] Booting worker with pid: 20474
+[2017-06-04 22:27:20 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12427)
+[2017-06-04 22:27:20 +0000] [12427] [INFO] Worker exiting (pid: 12427)
+[2017-06-04 22:27:20 +0000] [20487] [INFO] Booting worker with pid: 20487
+[2017-06-04 23:28:10 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [20487] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [12428] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [20473] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [20473] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [20474] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:10 +0000] [20487] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-04 23:28:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12428)
+[2017-06-04 23:28:51 +0000] [12428] [INFO] Worker exiting (pid: 12428)
+[2017-06-04 23:28:51 +0000] [21010] [INFO] Booting worker with pid: 21010
+[2017-06-04 23:28:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:20487)
+[2017-06-04 23:28:57 +0000] [20487] [INFO] Worker exiting (pid: 20487)
+[2017-06-04 23:28:58 +0000] [21016] [INFO] Booting worker with pid: 21016
+[2017-06-04 23:29:21 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:20473)
+[2017-06-04 23:29:21 +0000] [20473] [INFO] Worker exiting (pid: 20473)
+[2017-06-04 23:29:21 +0000] [21025] [INFO] Booting worker with pid: 21025
+[2017-06-05 10:28:32 +0000] [21025] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-05 10:56:45 +0000] [21016] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-05 10:56:48 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:20474)
+[2017-06-05 10:56:48 +0000] [20474] [INFO] Worker exiting (pid: 20474)
+[2017-06-05 10:56:49 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21010)
+[2017-06-05 10:56:49 +0000] [21010] [INFO] Worker exiting (pid: 21010)
+[2017-06-05 10:56:49 +0000] [25615] [INFO] Booting worker with pid: 25615
+[2017-06-05 10:56:49 +0000] [25616] [INFO] Booting worker with pid: 25616
+[2017-06-05 10:57:03 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21025)
+[2017-06-05 10:57:03 +0000] [21025] [INFO] Worker exiting (pid: 21025)
+[2017-06-05 10:57:03 +0000] [25627] [INFO] Booting worker with pid: 25627
+[2017-06-05 10:57:15 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21016)
+[2017-06-05 10:57:15 +0000] [21016] [INFO] Worker exiting (pid: 21016)
+[2017-06-05 10:57:16 +0000] [25633] [INFO] Booting worker with pid: 25633
+[2017-06-05 18:46:54 +0000] [25627] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-05 18:48:15 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:25633)
+[2017-06-05 18:48:15 +0000] [25633] [INFO] Worker exiting (pid: 25633)
+[2017-06-05 18:48:16 +0000] [28913] [INFO] Booting worker with pid: 28913
+[2017-06-05 20:25:46 +0000] [25616] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 05:45:33 +0000] [28913] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 05:45:33 +0000] [25627] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 05:45:33 +0000] [25616] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 05:45:33 +0000] [28913] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 05:45:33 +0000] [25615] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 10:24:40 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:25615)
+[2017-06-06 10:24:40 +0000] [25615] [INFO] Worker exiting (pid: 25615)
+[2017-06-06 10:24:41 +0000] [1965] [INFO] Booting worker with pid: 1965
+[2017-06-06 10:24:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:25616)
+[2017-06-06 10:24:43 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:25627)
+[2017-06-06 10:24:43 +0000] [25627] [INFO] Worker exiting (pid: 25627)
+[2017-06-06 10:24:43 +0000] [25616] [INFO] Worker exiting (pid: 25616)
+[2017-06-06 10:24:43 +0000] [1972] [INFO] Booting worker with pid: 1972
+[2017-06-06 10:24:43 +0000] [1973] [INFO] Booting worker with pid: 1973
+[2017-06-06 12:18:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:1973)
+[2017-06-06 12:18:23 +0000] [1973] [INFO] Worker exiting (pid: 1973)
+[2017-06-06 12:18:23 +0000] [2938] [INFO] Booting worker with pid: 2938
+[2017-06-06 12:49:35 +0000] [1965] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-06 12:49:59 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:1972)
+[2017-06-06 12:49:59 +0000] [1972] [INFO] Worker exiting (pid: 1972)
+[2017-06-06 12:49:59 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:2938)
+[2017-06-06 12:49:59 +0000] [2938] [INFO] Worker exiting (pid: 2938)
+[2017-06-06 12:49:59 +0000] [3126] [INFO] Booting worker with pid: 3126
+[2017-06-06 12:49:59 +0000] [3127] [INFO] Booting worker with pid: 3127
+[2017-06-06 15:51:13 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3127)
+[2017-06-06 15:51:13 +0000] [3127] [INFO] Worker exiting (pid: 3127)
+[2017-06-06 15:51:13 +0000] [4384] [INFO] Booting worker with pid: 4384
+[2017-06-07 02:10:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:4384)
+[2017-06-07 02:10:53 +0000] [4384] [INFO] Worker exiting (pid: 4384)
+[2017-06-07 02:10:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:1965)
+[2017-06-07 02:10:53 +0000] [1965] [INFO] Worker exiting (pid: 1965)
+[2017-06-07 02:10:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3126)
+[2017-06-07 02:10:53 +0000] [3126] [INFO] Worker exiting (pid: 3126)
+[2017-06-07 02:10:54 +0000] [8914] [INFO] Booting worker with pid: 8914
+[2017-06-07 02:10:54 +0000] [8915] [INFO] Booting worker with pid: 8915
+[2017-06-07 02:10:54 +0000] [8916] [INFO] Booting worker with pid: 8916
+[2017-06-07 02:10:55 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28913)
+[2017-06-07 02:10:55 +0000] [28913] [INFO] Worker exiting (pid: 28913)
+[2017-06-07 02:10:55 +0000] [8932] [INFO] Booting worker with pid: 8932
+[2017-06-07 13:05:29 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8914)
+[2017-06-07 13:05:29 +0000] [8914] [INFO] Worker exiting (pid: 8914)
+[2017-06-07 13:05:29 +0000] [13620] [INFO] Booting worker with pid: 13620
+[2017-06-07 13:06:40 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:24:22 +0000] [13620] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:24:27 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:24:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13620)
+[2017-06-07 15:24:57 +0000] [13620] [INFO] Worker exiting (pid: 13620)
+[2017-06-07 15:24:58 +0000] [14369] [INFO] Booting worker with pid: 14369
+[2017-06-07 15:30:06 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:30:07 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:30:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8932)
+[2017-06-07 15:30:36 +0000] [8932] [INFO] Worker exiting (pid: 8932)
+[2017-06-07 15:30:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8915)
+[2017-06-07 15:30:36 +0000] [8915] [INFO] Worker exiting (pid: 8915)
+[2017-06-07 15:30:37 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:14369)
+[2017-06-07 15:30:37 +0000] [14369] [INFO] Worker exiting (pid: 14369)
+[2017-06-07 15:30:37 +0000] [14402] [INFO] Booting worker with pid: 14402
+[2017-06-07 15:30:37 +0000] [14403] [INFO] Booting worker with pid: 14403
+[2017-06-07 15:30:37 +0000] [14404] [INFO] Booting worker with pid: 14404
+[2017-06-07 15:47:06 +0000] [14403] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:47:10 +0000] [14403] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:49:49 +0000] [14402] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:49:52 +0000] [14402] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:49:52 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:49:59 +0000] [14404] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 15:50:03 +0000] [14402] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:16 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:17 +0000] [14404] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:29 +0000] [14402] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:29 +0000] [14403] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:51 +0000] [8916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 16:40:52 +0000] [14403] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-07 18:17:56 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:8916)
+[2017-06-07 18:17:56 +0000] [8916] [INFO] Worker exiting (pid: 8916)
+[2017-06-07 18:17:56 +0000] [15305] [INFO] Booting worker with pid: 15305
+[2017-06-07 19:26:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:14404)
+[2017-06-07 19:26:25 +0000] [14404] [INFO] Worker exiting (pid: 14404)
+[2017-06-07 19:26:25 +0000] [15732] [INFO] Booting worker with pid: 15732
+[2017-06-08 00:04:42 +0000] [15732] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 00:23:22 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:14403)
+[2017-06-08 00:23:22 +0000] [14403] [INFO] Worker exiting (pid: 14403)
+[2017-06-08 00:23:22 +0000] [17089] [INFO] Booting worker with pid: 17089
+[2017-06-08 01:07:50 +0000] [15732] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 10:34:10 +0000] [15732] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 18:44:20 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:15305)
+[2017-06-08 18:44:20 +0000] [15305] [INFO] Worker exiting (pid: 15305)
+[2017-06-08 18:44:21 +0000] [24428] [INFO] Booting worker with pid: 24428
+[2017-06-08 18:48:02 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24428)
+[2017-06-08 18:48:02 +0000] [24428] [INFO] Worker exiting (pid: 24428)
+[2017-06-08 18:48:02 +0000] [24461] [INFO] Booting worker with pid: 24461
+[2017-06-08 18:49:30 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:14402)
+[2017-06-08 18:49:30 +0000] [14402] [INFO] Worker exiting (pid: 14402)
+[2017-06-08 18:49:31 +0000] [24479] [INFO] Booting worker with pid: 24479
+[2017-06-08 18:57:51 +0000] [15732] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 18:58:04 +0000] [24479] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 18:58:44 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:17089)
+[2017-06-08 18:58:44 +0000] [17089] [INFO] Worker exiting (pid: 17089)
+[2017-06-08 18:58:45 +0000] [24553] [INFO] Booting worker with pid: 24553
+[2017-06-08 19:04:55 +0000] [24553] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 19:05:13 +0000] [24553] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 19:05:13 +0000] [24479] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 19:05:13 +0000] [24479] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-08 22:57:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:15732)
+[2017-06-08 22:57:53 +0000] [15732] [INFO] Worker exiting (pid: 15732)
+[2017-06-08 22:57:54 +0000] [26266] [INFO] Booting worker with pid: 26266
+[2017-06-08 22:58:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24479)
+[2017-06-08 22:58:25 +0000] [24479] [INFO] Worker exiting (pid: 24479)
+[2017-06-08 22:58:25 +0000] [26274] [INFO] Booting worker with pid: 26274
+[2017-06-09 00:05:32 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26274)
+[2017-06-09 00:05:32 +0000] [26274] [INFO] Worker exiting (pid: 26274)
+[2017-06-09 00:05:32 +0000] [26534] [INFO] Booting worker with pid: 26534
+[2017-06-09 00:05:33 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24553)
+[2017-06-09 00:05:33 +0000] [24553] [INFO] Worker exiting (pid: 24553)
+[2017-06-09 00:05:33 +0000] [26540] [INFO] Booting worker with pid: 26540
+[2017-06-09 00:05:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26266)
+[2017-06-09 00:05:36 +0000] [26266] [INFO] Worker exiting (pid: 26266)
+[2017-06-09 00:05:37 +0000] [26546] [INFO] Booting worker with pid: 26546
+[2017-06-09 00:05:48 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24461)
+[2017-06-09 00:05:48 +0000] [24461] [INFO] Worker exiting (pid: 24461)
+[2017-06-09 00:05:48 +0000] [26553] [INFO] Booting worker with pid: 26553
+[2017-06-09 00:06:12 +0000] [26534] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-09 00:06:12 +0000] [26553] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-11 01:37:27 +0000] [26540] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-11 01:37:27 +0000] [26553] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-11 01:37:27 +0000] [26534] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-11 02:10:53 +0000] [26546] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-11 06:04:21 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26553)
+[2017-06-11 06:04:21 +0000] [26553] [INFO] Worker exiting (pid: 26553)
+[2017-06-11 06:04:21 +0000] [9947] [INFO] Booting worker with pid: 9947
+[2017-06-12 02:57:45 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26546)
+[2017-06-12 02:57:45 +0000] [26546] [INFO] Worker exiting (pid: 26546)
+[2017-06-12 02:57:45 +0000] [24671] [INFO] Booting worker with pid: 24671
+[2017-06-12 23:48:05 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26540)
+[2017-06-12 23:48:05 +0000] [26540] [INFO] Worker exiting (pid: 26540)
+[2017-06-12 23:48:05 +0000] [3658] [INFO] Booting worker with pid: 3658
+[2017-06-13 17:59:18 +0000] [3658] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-13 17:59:50 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26534)
+[2017-06-13 17:59:50 +0000] [26534] [INFO] Worker exiting (pid: 26534)
+[2017-06-13 17:59:50 +0000] [12393] [INFO] Booting worker with pid: 12393
+[2017-06-13 17:59:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:24671)
+[2017-06-13 17:59:52 +0000] [24671] [INFO] Worker exiting (pid: 24671)
+[2017-06-13 17:59:53 +0000] [12399] [INFO] Booting worker with pid: 12399
+[2017-06-14 20:02:54 +0000] [3658] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 00:00:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3658)
+[2017-06-15 00:00:36 +0000] [3658] [INFO] Worker exiting (pid: 3658)
+[2017-06-15 00:00:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12393)
+[2017-06-15 00:00:36 +0000] [12393] [INFO] Worker exiting (pid: 12393)
+[2017-06-15 00:00:36 +0000] [27935] [INFO] Booting worker with pid: 27935
+[2017-06-15 00:00:36 +0000] [27936] [INFO] Booting worker with pid: 27936
+[2017-06-15 00:00:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:9947)
+[2017-06-15 00:00:57 +0000] [9947] [INFO] Worker exiting (pid: 9947)
+[2017-06-15 00:00:58 +0000] [27948] [INFO] Booting worker with pid: 27948
+[2017-06-15 00:01:10 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:27935)
+[2017-06-15 00:01:10 +0000] [27935] [INFO] Worker exiting (pid: 27935)
+[2017-06-15 00:01:10 +0000] [27956] [INFO] Booting worker with pid: 27956
+[2017-06-15 00:32:53 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:27948)
+[2017-06-15 00:32:53 +0000] [27948] [INFO] Worker exiting (pid: 27948)
+[2017-06-15 00:32:53 +0000] [28191] [INFO] Booting worker with pid: 28191
+[2017-06-15 03:43:22 +0000] [27956] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 03:43:42 +0000] [28191] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 03:43:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12399)
+[2017-06-15 03:43:52 +0000] [12399] [INFO] Worker exiting (pid: 12399)
+[2017-06-15 03:43:53 +0000] [29579] [INFO] Booting worker with pid: 29579
+[2017-06-15 03:44:10 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:27936)
+[2017-06-15 03:44:10 +0000] [27936] [INFO] Worker exiting (pid: 27936)
+[2017-06-15 03:44:10 +0000] [29586] [INFO] Booting worker with pid: 29586
+[2017-06-15 07:48:01 +0000] [29579] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 07:48:31 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:28191)
+[2017-06-15 07:48:31 +0000] [28191] [INFO] Worker exiting (pid: 28191)
+[2017-06-15 07:48:32 +0000] [31556] [INFO] Booting worker with pid: 31556
+[2017-06-15 07:51:36 +0000] [29586] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 07:52:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31556)
+[2017-06-15 07:52:06 +0000] [31556] [INFO] Worker exiting (pid: 31556)
+[2017-06-15 07:52:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29586)
+[2017-06-15 07:52:06 +0000] [29586] [INFO] Worker exiting (pid: 29586)
+[2017-06-15 07:52:06 +0000] [31587] [INFO] Booting worker with pid: 31587
+[2017-06-15 07:52:06 +0000] [31588] [INFO] Booting worker with pid: 31588
+[2017-06-15 07:55:33 +0000] [31587] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 14:28:34 +0000] [27956] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 14:28:37 +0000] [31587] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 14:28:37 +0000] [27956] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 16:38:54 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31587)
+[2017-06-15 16:38:54 +0000] [31587] [INFO] Worker exiting (pid: 31587)
+[2017-06-15 16:38:54 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31588)
+[2017-06-15 16:38:54 +0000] [31588] [INFO] Worker exiting (pid: 31588)
+[2017-06-15 16:38:54 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29579)
+[2017-06-15 16:38:54 +0000] [29579] [INFO] Worker exiting (pid: 29579)
+[2017-06-15 16:38:54 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:27956)
+[2017-06-15 16:38:54 +0000] [27956] [INFO] Worker exiting (pid: 27956)
+[2017-06-15 16:38:54 +0000] [3058] [INFO] Booting worker with pid: 3058
+[2017-06-15 16:38:54 +0000] [3059] [INFO] Booting worker with pid: 3059
+[2017-06-15 16:38:54 +0000] [3060] [INFO] Booting worker with pid: 3060
+[2017-06-15 16:38:54 +0000] [3061] [INFO] Booting worker with pid: 3061
+[2017-06-15 16:39:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3058)
+[2017-06-15 16:39:25 +0000] [3058] [INFO] Worker exiting (pid: 3058)
+[2017-06-15 16:39:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3059)
+[2017-06-15 16:39:25 +0000] [3059] [INFO] Worker exiting (pid: 3059)
+[2017-06-15 16:39:25 +0000] [3087] [INFO] Booting worker with pid: 3087
+[2017-06-15 16:39:25 +0000] [3088] [INFO] Booting worker with pid: 3088
+[2017-06-15 16:43:06 +0000] [3060] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 17:20:44 +0000] [3061] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-15 17:20:49 +0000] [3061] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 04:34:37 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3088)
+[2017-06-16 04:34:37 +0000] [3088] [INFO] Worker exiting (pid: 3088)
+[2017-06-16 04:34:37 +0000] [9719] [INFO] Booting worker with pid: 9719
+[2017-06-16 08:30:48 +0000] [9719] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 08:30:48 +0000] [3060] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 08:30:48 +0000] [3061] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 08:30:48 +0000] [9719] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 08:31:18 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3087)
+[2017-06-16 08:31:18 +0000] [3087] [INFO] Worker exiting (pid: 3087)
+[2017-06-16 08:31:18 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3060)
+[2017-06-16 08:31:18 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:3061)
+[2017-06-16 08:31:18 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:9719)
+[2017-06-16 08:31:18 +0000] [3061] [INFO] Worker exiting (pid: 3061)
+[2017-06-16 08:31:18 +0000] [9719] [INFO] Worker exiting (pid: 9719)
+[2017-06-16 08:31:18 +0000] [3060] [INFO] Worker exiting (pid: 3060)
+[2017-06-16 08:31:18 +0000] [12915] [INFO] Booting worker with pid: 12915
+[2017-06-16 08:31:18 +0000] [12916] [INFO] Booting worker with pid: 12916
+[2017-06-16 08:31:18 +0000] [12917] [INFO] Booting worker with pid: 12917
+[2017-06-16 08:31:18 +0000] [12920] [INFO] Booting worker with pid: 12920
+[2017-06-16 14:14:48 +0000] [12920] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 14:22:18 +0000] [12920] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 14:22:36 +0000] [12915] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 14:22:36 +0000] [12916] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 19:59:36 +0000] [12917] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 19:59:45 +0000] [12920] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 20:56:03 +0000] [12915] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 20:56:16 +0000] [12920] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-16 20:56:33 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12916)
+[2017-06-16 20:56:33 +0000] [12916] [INFO] Worker exiting (pid: 12916)
+[2017-06-16 20:56:34 +0000] [21373] [INFO] Booting worker with pid: 21373
+[2017-06-17 07:58:21 +0000] [12915] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-17 07:58:25 +0000] [12920] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-17 14:39:54 +0000] [12915] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-17 14:40:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12920)
+[2017-06-17 14:40:25 +0000] [12920] [INFO] Worker exiting (pid: 12920)
+[2017-06-17 14:40:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:21373)
+[2017-06-17 14:40:25 +0000] [21373] [INFO] Worker exiting (pid: 21373)
+[2017-06-17 14:40:25 +0000] [31864] [INFO] Booting worker with pid: 31864
+[2017-06-17 14:40:25 +0000] [31865] [INFO] Booting worker with pid: 31865
+[2017-06-17 14:40:29 +0000] [31864] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-17 14:40:57 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12915)
+[2017-06-17 14:40:57 +0000] [12915] [INFO] Worker exiting (pid: 12915)
+[2017-06-17 14:40:58 +0000] [31881] [INFO] Booting worker with pid: 31881
+[2017-06-17 14:40:59 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31865)
+[2017-06-17 14:40:59 +0000] [31865] [INFO] Worker exiting (pid: 31865)
+[2017-06-17 14:40:59 +0000] [31887] [INFO] Booting worker with pid: 31887
+[2017-06-17 14:42:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31881)
+[2017-06-17 14:42:51 +0000] [31881] [INFO] Worker exiting (pid: 31881)
+[2017-06-17 14:42:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31887)
+[2017-06-17 14:42:51 +0000] [31887] [INFO] Worker exiting (pid: 31887)
+[2017-06-17 14:42:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31864)
+[2017-06-17 14:42:51 +0000] [31864] [INFO] Worker exiting (pid: 31864)
+[2017-06-17 14:42:51 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:12917)
+[2017-06-17 14:42:51 +0000] [12917] [INFO] Worker exiting (pid: 12917)
+[2017-06-17 14:42:51 +0000] [31908] [INFO] Booting worker with pid: 31908
+[2017-06-17 14:42:51 +0000] [31909] [INFO] Booting worker with pid: 31909
+[2017-06-17 14:42:51 +0000] [31910] [INFO] Booting worker with pid: 31910
+[2017-06-17 14:42:51 +0000] [31911] [INFO] Booting worker with pid: 31911
+[2017-06-18 07:01:37 +0000] [31908] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-18 07:01:37 +0000] [31911] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-18 15:38:51 +0000] [31909] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-18 15:39:01 +0000] [31909] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-18 23:18:10 +0000] [31908] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-19 19:48:38 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31910)
+[2017-06-19 19:48:38 +0000] [31910] [INFO] Worker exiting (pid: 31910)
+[2017-06-19 19:48:38 +0000] [29463] [INFO] Booting worker with pid: 29463
+[2017-06-20 01:32:53 +0000] [31909] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-20 01:33:24 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31908)
+[2017-06-20 01:33:24 +0000] [31908] [INFO] Worker exiting (pid: 31908)
+[2017-06-20 01:33:24 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29463)
+[2017-06-20 01:33:24 +0000] [29463] [INFO] Worker exiting (pid: 29463)
+[2017-06-20 01:33:25 +0000] [32436] [INFO] Booting worker with pid: 32436
+[2017-06-20 01:33:25 +0000] [32437] [INFO] Booting worker with pid: 32437
+[2017-06-20 01:33:25 +0000] [32436] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-20 01:33:37 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31911)
+[2017-06-20 01:33:37 +0000] [31911] [INFO] Worker exiting (pid: 31911)
+[2017-06-20 01:33:37 +0000] [32451] [INFO] Booting worker with pid: 32451
+[2017-06-20 01:33:38 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31909)
+[2017-06-20 01:33:38 +0000] [31909] [INFO] Worker exiting (pid: 31909)
+[2017-06-20 01:33:39 +0000] [32457] [INFO] Booting worker with pid: 32457
+[2017-06-20 18:57:11 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32437)
+[2017-06-20 18:57:11 +0000] [32437] [INFO] Worker exiting (pid: 32437)
+[2017-06-20 18:57:11 +0000] [9233] [INFO] Booting worker with pid: 9233
+[2017-06-22 00:22:18 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 00:22:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32436)
+[2017-06-22 00:22:36 +0000] [32436] [INFO] Worker exiting (pid: 32436)
+[2017-06-22 00:22:36 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32457)
+[2017-06-22 00:22:36 +0000] [32457] [INFO] Worker exiting (pid: 32457)
+[2017-06-22 00:22:37 +0000] [23657] [INFO] Booting worker with pid: 23657
+[2017-06-22 00:22:37 +0000] [23658] [INFO] Booting worker with pid: 23658
+[2017-06-22 00:22:37 +0000] [23657] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 00:22:38 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 00:23:00 +0000] [9233] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 05:17:48 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 05:17:48 +0000] [9233] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 05:33:53 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 14:57:23 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:9233)
+[2017-06-22 14:57:23 +0000] [9233] [INFO] Worker exiting (pid: 9233)
+[2017-06-22 14:57:24 +0000] [30599] [INFO] Booting worker with pid: 30599
+[2017-06-22 16:24:44 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:30599)
+[2017-06-22 16:24:44 +0000] [30599] [INFO] Worker exiting (pid: 30599)
+[2017-06-22 16:24:44 +0000] [31337] [INFO] Booting worker with pid: 31337
+[2017-06-22 19:07:33 +0000] [31337] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-22 19:08:03 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:23657)
+[2017-06-22 19:08:03 +0000] [23657] [INFO] Worker exiting (pid: 23657)
+[2017-06-22 19:08:03 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:23658)
+[2017-06-22 19:08:03 +0000] [23658] [INFO] Worker exiting (pid: 23658)
+[2017-06-22 19:08:03 +0000] [32623] [INFO] Booting worker with pid: 32623
+[2017-06-22 19:08:03 +0000] [32622] [INFO] Booting worker with pid: 32622
+[2017-06-23 14:19:58 +0000] [32623] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-24 09:19:23 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-24 12:04:05 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-24 12:04:06 +0000] [31337] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-24 12:04:07 +0000] [32623] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-24 23:39:10 +0000] [32451] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-25 18:29:25 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:31337)
+[2017-06-25 18:29:25 +0000] [31337] [INFO] Worker exiting (pid: 31337)
+[2017-06-25 18:29:25 +0000] [26750] [INFO] Booting worker with pid: 26750
+[2017-06-25 19:28:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32622)
+[2017-06-25 19:28:52 +0000] [32622] [INFO] Worker exiting (pid: 32622)
+[2017-06-25 19:28:52 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:26750)
+[2017-06-25 19:28:52 +0000] [26750] [INFO] Worker exiting (pid: 26750)
+[2017-06-25 19:28:52 +0000] [29021] [INFO] Booting worker with pid: 29021
+[2017-06-25 19:28:52 +0000] [29022] [INFO] Booting worker with pid: 29022
+[2017-06-25 19:29:00 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32451)
+[2017-06-25 19:29:00 +0000] [32451] [INFO] Worker exiting (pid: 32451)
+[2017-06-25 19:29:01 +0000] [29038] [INFO] Booting worker with pid: 29038
+[2017-06-25 19:29:19 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:32623)
+[2017-06-25 19:29:19 +0000] [32623] [INFO] Worker exiting (pid: 32623)
+[2017-06-25 19:29:19 +0000] [29056] [INFO] Booting worker with pid: 29056
+[2017-06-25 19:29:59 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29038)
+[2017-06-25 19:29:59 +0000] [29038] [INFO] Worker exiting (pid: 29038)
+[2017-06-25 19:29:59 +0000] [29087] [INFO] Booting worker with pid: 29087
+[2017-06-26 12:04:21 +0000] [29021] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 12:04:28 +0000] [29021] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 17:51:38 +0000] [29056] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 17:51:38 +0000] [29021] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 21:23:36 +0000] [29021] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 21:23:42 +0000] [29087] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 21:23:42 +0000] [29056] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-26 21:39:24 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29056)
+[2017-06-26 21:39:24 +0000] [29056] [INFO] Worker exiting (pid: 29056)
+[2017-06-26 21:39:24 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29087)
+[2017-06-26 21:39:24 +0000] [29087] [INFO] Worker exiting (pid: 29087)
+[2017-06-26 21:39:25 +0000] [13559] [INFO] Booting worker with pid: 13559
+[2017-06-26 21:39:25 +0000] [13560] [INFO] Booting worker with pid: 13560
+[2017-06-28 15:06:40 +0000] [13560] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-28 15:06:40 +0000] [29022] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-28 15:06:40 +0000] [13559] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-28 16:15:07 +0000] [29022] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-28 16:15:17 +0000] [29022] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-28 16:29:34 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:13559)
+[2017-06-28 16:29:34 +0000] [13559] [INFO] Worker exiting (pid: 13559)
+[2017-06-28 16:29:34 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29021)
+[2017-06-28 16:29:34 +0000] [29021] [INFO] Worker exiting (pid: 29021)
+[2017-06-28 16:29:34 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:29022)
+[2017-06-28 16:29:34 +0000] [29022] [INFO] Worker exiting (pid: 29022)
+[2017-06-28 16:29:34 +0000] [5451] [INFO] Booting worker with pid: 5451
+[2017-06-28 16:29:34 +0000] [5452] [INFO] Booting worker with pid: 5452
+[2017-06-28 16:29:34 +0000] [5453] [INFO] Booting worker with pid: 5453
+[2017-06-28 16:30:06 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:5452)
+[2017-06-28 16:30:06 +0000] [5452] [INFO] Worker exiting (pid: 5452)
+[2017-06-28 16:30:07 +0000] [5471] [INFO] Booting worker with pid: 5471
+[2017-06-28 16:30:39 +0000] [28698] [CRITICAL] WORKER TIMEOUT (pid:5451)
+[2017-06-28 16:30:39 +0000] [5451] [INFO] Worker exiting (pid: 5451)
+[2017-06-28 16:30:40 +0000] [5482] [INFO] Booting worker with pid: 5482
+[2017-06-29 00:56:14 +0000] [5453] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-29 01:59:15 +0000] [5453] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-29 02:15:17 +0000] [5482] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-29 02:51:15 +0000] [5482] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 174, in handle_request
+    resp.write_file(respiter)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 397, in write_file
+    if not self.sendfile(respiter):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 387, in sendfile
+    sent += sendfile(sockno, fileno, offset + sent, count)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/http/_sendfile.py", line 67, in sendfile
+    raise OSError(e, os.strerror(e))
+OSError: [Errno 32] Broken pipe
+[2017-06-29 02:51:22 +0000] [5482] [INFO] Worker exiting (pid: 5482)
+[2017-06-29 02:51:22 +0000] [13560] [INFO] Worker exiting (pid: 13560)
+[2017-06-29 02:51:22 +0000] [28698] [INFO] Handling signal: term
+[2017-06-29 02:51:22 +0000] [5453] [INFO] Worker exiting (pid: 5453)
+[2017-06-29 02:51:22 +0000] [5471] [INFO] Worker exiting (pid: 5471)
+[2017-06-29 02:51:23 +0000] [28698] [INFO] Shutting down: Master

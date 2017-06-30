@@ -1,0 +1,4 @@
+Error: ENOENT, stat '/home/billy/data/files/%7B%7Bdoc.timestamp%7D%7D/coverphoto%7B%7Bdoc.files.coverphoto.substring(doc.files.coverphoto.length-4,doc.files.coverphoto.length)%7D%7D'
+    at Error (native)
+Error: ENOENT, stat '/home/billy/data/files/%7B%7Bdoc.timestamp%7D%7D/coverphoto%7B%7Bdoc.files.coverphoto.substring(doc.files.coverphoto.length-4,doc.files.coverphoto.length)%7D%7D'
+    at Error (native)

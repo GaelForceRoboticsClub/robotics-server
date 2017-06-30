@@ -1,0 +1,80 @@
+<div style="padding-top:48px"></div>
+<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--4-col"></div>
+    <div class="mdl-cell mdl-cell--3-col">
+        <h4>Submit an Entry</h4>
+        <form>
+        	<label class="mdl-button mdl-js-button mdl-button--icon" for="textfield1">
+			    <i class="material-icons">format_quote</i>
+			  </label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input id="textfield1" type="text" class="mdl-textfield__input">
+                <label for="textfield1" class="mdl-textfield__label">Title</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield2">
+			    <i class="material-icons">person</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input id="textfield2" type="text" class="mdl-textfield__input">
+                <label for="textfield2" class="mdl-textfield__label">Author</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield3">
+			    <i class="material-icons">event</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input id="textfield3" type="text" class="mdl-textfield__input">
+                <label for="textfield3" class="mdl-textfield__label">Date</label>
+            </div>
+            <div style="width:100%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea id="textfield4" type="text" rows="3" class="mdl-textfield__input"></textarea>
+                <label for="textfield4" class="mdl-textfield__label">Summary</label>
+            </div>
+            <div style="width:100%" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea id="textfield5" type="text" rows="3" class="mdl-textfield__input"></textarea>
+                <label for="textfield5" class="mdl-textfield__label">Entry</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield6">
+			    <i class="material-icons">panorama</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input accept="image/*" id="textfield6" type="text" class="mdl-textfield__input">
+                <label for="textfield6" class="mdl-textfield__label">Cover Photo</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield7">
+			    <i class="material-icons">perm_media</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input accept="image/*" id="textfield7" type="text" class="mdl-textfield__input" multiple>
+                <label for="textfield7" class="mdl-textfield__label">Add Some Photos</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield8">
+			    <i class="material-icons">code</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input accept=".c" id="textfield8" type="text" class="mdl-textfield__input" multiple>
+                <label for="textfield8" class="mdl-textfield__label">Add Some Code</label>
+            </div>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+			  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input"/>
+			  <span class="mdl-checkbox__label">Major Build?</span>
+			</label>
+			<label class="mdl-button mdl-js-button mdl-button--icon" for="textfield9">
+			    <i class="material-icons">build</i>
+			</label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input accept="image/*" id="textfield9" type="text" class="mdl-textfield__input" disabled>
+                <label for="textfield9" class="mdl-textfield__label">Build Photo</label>
+            </div>
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="textfield10">
+                <i class="material-icons">done</i>
+              </label>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input id="textfield10" type="password" class="mdl-textfield__input">
+                <label for="textfield10" class="mdl-textfield__label">Password</label>
+            </div>
+            <br>
+            <button id="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Submit<i style="padding-left:16px" class="material-icons">send</i></button>
+        </form>
+    </div>
+</div>
+<script src="./public/src/js/submit.js"></script>

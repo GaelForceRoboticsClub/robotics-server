@@ -1,0 +1,45 @@
+2015-09-29T19:39:06.050-0400 I JOURNAL  [initandlisten] journal dir=/root/data/db/journal
+2015-09-29T19:39:06.050-0400 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-09-29T19:39:06.136-0400 I JOURNAL  [durability] Durability thread started
+2015-09-29T19:39:06.136-0400 I JOURNAL  [journal writer] Journal writer thread started
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] MongoDB starting : pid=8900 port=27017 dbpath=/root/data/db 64-bit host=gaelforce
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] 
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] 
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-09-29T19:39:06.138-0400 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] 
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] 
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] db version v3.0.6
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] build info: Linux build6.ny.cbi.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-09-29T19:39:06.139-0400 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "data/db" }, systemLog: { destination: "file", path: "data/log/mongodb.log" } }
+2015-09-29T19:39:06.142-0400 I INDEX    [initandlisten] allocating new ns file /root/data/db/local.ns, filling with zeroes...
+2015-09-29T19:39:06.220-0400 I STORAGE  [FileAllocator] allocating new datafile /root/data/db/local.0, filling with zeroes...
+2015-09-29T19:39:06.220-0400 I STORAGE  [FileAllocator] creating directory /root/data/db/_tmp
+2015-09-29T19:39:06.222-0400 I STORAGE  [FileAllocator] done allocating datafile /root/data/db/local.0, size: 64MB,  took 0 secs
+2015-09-29T19:39:06.229-0400 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-09-29T19:39:35.033-0400 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57403 #1 (1 connection now open)
+2015-09-29T19:42:04.301-0400 I NETWORK  [conn1] end connection 127.0.0.1:57403 (0 connections now open)
+2015-09-29T20:00:10.486-0400 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-09-29T20:00:10.486-0400 I CONTROL  [signalProcessingThread] now exiting
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-09-29T20:00:10.486-0400 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-09-29T20:00:10.486-0400 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-09-29T20:00:10.486-0400 I STORAGE  [signalProcessingThread] shutdown: final commit...
+2015-09-29T20:00:10.486-0400 I JOURNAL  [signalProcessingThread] journalCleanup...
+2015-09-29T20:00:10.487-0400 I JOURNAL  [signalProcessingThread] removeJournalFiles
+2015-09-29T20:00:10.505-0400 I JOURNAL  [signalProcessingThread] Terminating durability thread ...
+2015-09-29T20:00:10.589-0400 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-09-29T20:00:10.590-0400 I JOURNAL  [durability] Durability thread stopped
+2015-09-29T20:00:10.590-0400 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-09-29T20:00:10.591-0400 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-09-29T20:00:10.591-0400 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-09-29T20:00:10.591-0400 I CONTROL  [signalProcessingThread] dbexit:  rc: 0

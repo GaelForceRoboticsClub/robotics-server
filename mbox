@@ -1,0 +1,106 @@
+From root@gaelforce  Fri Oct  2 06:37:47 2015
+Return-Path: <root@gaelforce>
+X-Original-To: root
+Delivered-To: root@gaelforce
+Received: by gaelforce (Postfix, from userid 0)
+	id 65D5B141F74; Fri,  2 Oct 2015 06:37:47 -0400 (EDT)
+From: root@gaelforce (Cron Daemon)
+To: root@gaelforce
+Subject: Cron <root@gaelforce> test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20151002103747.65D5B141F74@gaelforce>
+Date: Fri,  2 Oct 2015 06:37:47 -0400 (EDT)
+
+/etc/cron.daily/00logwatch:
+Option detail requires an argument
+
+Usage: /usr/sbin/logwatch [--detail <level>] [--logfile <name>] [--output <output_type>]
+   [--format <format_type>] [--encode <enconding>] [--numeric]
+   [--mailto <addr>] [--archives] [--range <range>] [--debug <level>]
+   [--filename <filename>] [--help|--usage] [--version] [--service <name>]
+   [--hostformat <host_format type>] [--hostlimit <host1,host2>] [--html_wrap <num_characters>]
+
+--detail <level>: Report Detail Level - High, Med, Low or any #.
+--logfile <name>: *Name of a logfile definition to report on.
+--logdir <name>: Name of default directory where logs are stored.
+--service <name>: *Name of a service definition to report on.
+--output <output type>: Report Output - stdout [default], mail, file.
+--format <formatting>: Report Format - text [default], html.
+--encode <encoding>: Enconding to use - none [default], base64.
+--mailto <addr>: Mail report to <addr>.
+--archives: Use archived log files too.
+--filename <filename>: Used to specify they filename to save to. --filename <filename> [Forces output to file].
+--range <range>: Date range: Yesterday, Today, All, Help
+                             where help will describe additional options
+--numeric: Display addresses numerically rather than symbolically and numerically
+           (saves  a  nameserver address-to-name lookup).
+--debug <level>: Debug Level - High, Med, Low or any #.
+--hostformat: Host Based Report Options - none [default], split, splitmail.
+--hostlimit: Limit report to hostname - host1,host2.
+--hostname: overwrites hostname
+--html_wrap <num_characters>: Default is 80.
+--version: Displays current version.
+--help: This message.
+--usage: Same as --help.
+* = Switch can be specified multiple times...
+
+/etc/cron.daily/00logwatch: line 8: high: command not found
+run-parts: /etc/cron.daily/00logwatch exited with return code 127
+
+From root@gaelforce  Sat Oct  3 06:51:52 2015
+Return-Path: <root@gaelforce>
+X-Original-To: root
+Delivered-To: root@gaelforce
+Received: by gaelforce (Postfix, from userid 0)
+	id 6B0111421F4; Sat,  3 Oct 2015 06:51:52 -0400 (EDT)
+From: root@gaelforce (Cron Daemon)
+To: root@gaelforce
+Subject: Cron <root@gaelforce> test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin>
+X-Cron-Env: <HOME=/root>
+X-Cron-Env: <LOGNAME=root>
+Message-Id: <20151003105152.6B0111421F4@gaelforce>
+Date: Sat,  3 Oct 2015 06:51:52 -0400 (EDT)
+
+/etc/cron.daily/00logwatch:
+Option detail requires an argument
+
+Usage: /usr/sbin/logwatch [--detail <level>] [--logfile <name>] [--output <output_type>]
+   [--format <format_type>] [--encode <enconding>] [--numeric]
+   [--mailto <addr>] [--archives] [--range <range>] [--debug <level>]
+   [--filename <filename>] [--help|--usage] [--version] [--service <name>]
+   [--hostformat <host_format type>] [--hostlimit <host1,host2>] [--html_wrap <num_characters>]
+
+--detail <level>: Report Detail Level - High, Med, Low or any #.
+--logfile <name>: *Name of a logfile definition to report on.
+--logdir <name>: Name of default directory where logs are stored.
+--service <name>: *Name of a service definition to report on.
+--output <output type>: Report Output - stdout [default], mail, file.
+--format <formatting>: Report Format - text [default], html.
+--encode <encoding>: Enconding to use - none [default], base64.
+--mailto <addr>: Mail report to <addr>.
+--archives: Use archived log files too.
+--filename <filename>: Used to specify they filename to save to. --filename <filename> [Forces output to file].
+--range <range>: Date range: Yesterday, Today, All, Help
+                             where help will describe additional options
+--numeric: Display addresses numerically rather than symbolically and numerically
+           (saves  a  nameserver address-to-name lookup).
+--debug <level>: Debug Level - High, Med, Low or any #.
+--hostformat: Host Based Report Options - none [default], split, splitmail.
+--hostlimit: Limit report to hostname - host1,host2.
+--hostname: overwrites hostname
+--html_wrap <num_characters>: Default is 80.
+--version: Displays current version.
+--help: This message.
+--usage: Same as --help.
+* = Switch can be specified multiple times...
+
+/etc/cron.daily/00logwatch: line 8: high: command not found
+run-parts: /etc/cron.daily/00logwatch exited with return code 127
+

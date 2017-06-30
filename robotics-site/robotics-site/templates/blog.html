@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	 <!--
+
+	 .,__,.........,__,.....╭¬¬¬¬¬━━╮
+	 `•.,¸,.•*¯`•.,¸,.•*|:¬¬¬¬¬¬::::|^------^
+	 `•.,¸,.•*¯`•.,¸,.•*|:¬¬¬¬¬¬::::||｡◕‿‿◕｡|
+	 -........--""-.......--"╰O━━━━O╯╰--O-O--╯
+
+	 Website created by Devin Mui, Ian SooHoo, and Billy Zhong.
+
+-->
+
+  <html class="no-js" lang="en"><!--<![endif]-->
+  <head>
+    <title>Blog - Gael Force Robotics</title>
+    <meta name = "theme-color" content="#222222">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- seo stuff -->
+    <meta name="description" content="The official website for Dublin High's Gael Force Robotics Club. VEX Teams, Project Teams, Club Meetings, Battle of The Bay, Club contact info, and the Scouting Database can be found here" />
+    <meta name="author" content="Devin Mui and Ian SooHoo">
+
+    <!-- styles and js -->
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700' rel='stylesheet' type='text/css'>
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="static/slider/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+    <link href="static/css/style.css" rel="stylesheet" />
+
+    <!-- favicon -->
+    <link rel="icon" href="static/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon"/>
+
+    <script src="static/slider/modernizr.js"></script>
+
+</head>
+<nav>
+  {% include 'header.html' %}
+</nav>
+  <body style="padding-top:100px">
+  	<section id="about">
+  		<div class="outer_container">
+  		<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  			<div id="">
+  				{% for post in posts %}
+  					<h3><a href="{{ 'blog/posts/%s' % post._id }}">{{ post.title }}</a></h3>
+  					<p>{{ post.body }}</p>
+  				{% endfor %}
+  			</div>
+  		</div>
+      </div>
+      </div>
+      </div>
+  	</section>
+      	  <!-- JavaScripts -->
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+        <script src="static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="static/js/jquery.singlePageNav.js"></script>
+        <script src="static/js/templatemo_custom.js"></script>
+        <script src="static/js/smooth.scrolling.js"></script>
+        <script src="static/js/jquery.flip.min.js"></script>
+        <script>
+          $("nav.navbar-fixed-top").autoHidingNavbar();
+        </script>
+    <footer>
+      {% include 'footer.html' %}
+    </footer>
+  </body>
+</html>

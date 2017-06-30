@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Such Wow. Much Lost</title>
+		<link rel="icon" type="image/png" href="/public/src/img/doge/dogeico.png">
+		<link rel="stylesheet" href="/public/mdl/material.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="/public/src/vendor/jquery-2.1.4.min.js"></script>
+		<script src="/public/mdl/material.min.js"></script>
+		<script src="/public/src/vendor/angular.min.js"></script>
+		<script src="/public/src/vendor/angular-route.min.js"></script>
+		<script src="/public/src/vendor/socket.io-1.3.7.js"></script>
+		<script src="/public/src/vendor/socket.io-stream.js"></script>
+	</head>
+	<body style="overflow:hidden;background-image:url('/public/src/img/doge/doges.png');background-size:cover">
+		<img style="position:absolute;bottom:0;left:10" src="/public/src/img/doge/wow.png">
+		<img style="position:absolute;right:0;transform:scaleX(-1)" src="/public/src/img/doge/side.png">
+		<img style="position:absolute;bottom:0;right:0" src="/public/src/img/doge/space-doge.gif">
+		<div style="padding-top:10%" class="mdl-grid">
+			<div class="mdl-cell mdl-cell--3-col"></div>
+			<div class="mdl-cell mdl-cell--3-col">	
+				<h1 style="font-family:Comic sans MS;margin:0;color:#FF0000;font-size:10em">404.</h1>
+			</div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--3-col"></div>
+			<div class="mdl-cell mdl-cell--4-col">	
+				<h2 style="font-family:Comic sans MS;margin:0;color:#00FF00">Nosotros no sabemos tambien. </h2><h2 style="font-family:Comic sans MS;margin:0;color:#0000FF">Vuelve a casa <a style="color:#0000FF" href="/#/">aqui.</a></h2>
+			</div>
+		</div>
+		<script>
+			$('body').click(function(event){
+				var i = Math.floor(Math.random()*3) + 1;
+				$('body').append('<img style="width:50px;height:50px;position:absolute;left:' + (event.pageX - 25) + ';top:' + (event.pageY - 25) + ';" src="/public/src/img/doge/dogehead'+ i + '.png">');
+			});
+		</script>
+	</body>
+</html>
